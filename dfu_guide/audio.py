@@ -4,7 +4,7 @@ import shlex
 import subprocess
 from typing import Optional
 
-from .utils import get_logger, is_macos
+from .utils import is_macos
 
 
 DEFAULT_SOUND = "/System/Library/Sounds/Ping.aiff"

@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import tkinter as tk
 from tkinter import ttk
-from typing import Optional
 
 from .audio import beep, say
 from .detector import DeviceState, DetectResult, Detector
