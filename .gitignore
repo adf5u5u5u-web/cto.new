@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+*.egg
+.Python
+
+# Virtual env
+.venv/
+venv/
+ENV/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Logs
+logs/*.log
+
+# Editors
+.vscode/
+.idea/
+*.swp
