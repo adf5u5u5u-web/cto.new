@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="3840" height="2160" viewBox="0 0 3840 2160" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <title>5u集团有限公司</title>
+  <desc>Centered 4K composition with white background and black text "5u集团有限公司" using a Chinese sans-serif font stack.</desc>
+  <style><![CDATA[
+    .hero-text {
+      font-family: -apple-system, system-ui, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Source Han Sans SC", "WenQuanYi Micro Hei", "Helvetica Neue", Arial, sans-serif;
+      font-weight: 600;
+      font-size: 320px;
+      letter-spacing: -0.02em;
+      fill: #000000;
+    }
+  ]]></style>
+
+  <rect x="0" y="0" width="100%" height="100%" fill="#ffffff"/>
+
+  <text x="1920" y="1080" text-anchor="middle" dominant-baseline="middle" class="hero-text">5u集团有限公司</text>
+</svg>
