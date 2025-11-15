@@ -1,0 +1,24 @@
+[project]
+name = "dfu_guide"
+version = "0.1.0"
+description = "macOS iPhone DFU guide tool with CLI and Tkinter GUI"
+authors = [{name = "DFU Guide Maintainers"}]
+requires-python = ">=3.11"
+readme = "README.md"
+keywords = ["DFU", "iPhone", "macOS", "CLI", "GUI", "Tkinter"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.11",
+    "Environment :: MacOS X",
+    "Operating System :: MacOS",
+    "Topic :: System :: Hardware",
+    "Topic :: Utilities",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["dfu_guide"]
