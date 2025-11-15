@@ -1,0 +1,17 @@
+{
+  "name": "5u-hero-image",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SVG source and export script for 5u集团有限公司 4K image",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "export:4k": "node tools/export-image.js --input assets/5u-hero.svg --output assets/5u-hero-4k.png --width 3840 --height 2160",
+    "export": "node tools/export-image.js"
+  },
+  "dependencies": {
+    "sharp": "^0.33.3"
+  }
+}
