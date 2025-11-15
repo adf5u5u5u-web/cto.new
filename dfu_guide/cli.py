@@ -8,7 +8,7 @@ from typing import Optional
 
 from .audio import beep, say
 from .detector import DeviceState, DetectResult, Detector
-from .guide import FAMILIES, run_guide_blocking
+from .guide import run_guide_blocking
 from .utils import get_logger
 
 
